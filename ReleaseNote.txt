@@ -1,0 +1,39 @@
+Release Notification
+===========================================================================
+ UI 5S2P BMS FW release (Rev. 0.2.0)               		 07-27-2021
+
+ File name : UI_5S2P_V00_02.bin
+ Base on   : UI_5S2P_V00_01.bin
+
+ Notification:
+ Fixed:
+    1.> Fix wakeup from sleep mode failed by WAKE signal.
+    2.> Fix incorrect response of I2C write-stop-read.
+
+ Modified:
+    1.> Change sleep condition to SYS_IN low for 60 secs.
+    2.> Modify OCV table.
+    3.> Update battery status bits.
+    4.> Modify AFE shutdown process.
+
+ Add function:
+    1.> Add Shutdown command and function.
+    2.> Add Sleep command.
+    3.> Add Lifetime data command and record function.
+
+===========================================================================
+ UI 5S2P BMS FW release (Rev. 0.1.0)               		 07-12-2021
+
+ File name : UI_5S2P.bin
+ Base on   : None
+
+ Notification:
+ Fixed:
+ Modified:
+    1.> Initial firmware release.
+    2.> Includes charge/discharge function.
+    3.> Basic BMS I2C commands.
+
+ Add function:
+
+===========================================================================
